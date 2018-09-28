@@ -1,0 +1,6 @@
+framework module Pods_QNStringCrypto_Tests {
+  umbrella header "Pods-QNStringCrypto_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
