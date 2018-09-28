@@ -4,14 +4,16 @@
 
 osx_image: xcode10
 language: swift
-xcode_workspace: Example/QNStringCrypto.xcworkspace
-xcode_scheme: QNStringCrypto-Example
-xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone XS
+podfile: Example/Podfile
+
 # cache: cocoapods
-# podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
+
+env:
+  - ACTION=test  PLATFORM=macOS     DESTINATION='platform=macOS'   SCHEME=QNStringCrypto-Mac
+  - ACTION=test  PLATFORM=iOS     DESTINATION='platform=iOS Simulator,name=iPhone XS'   SCHEME=QNStringCrypto-Example
+
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/QNStringCrypto.xcworkspace -scheme QNStringCrypto-Example -destination 'platform=iOS Simulator,name=iPhone XS,OS=12.0' ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+  - set -o pipefail && xcodebuild -workspace Example/QNStringCrypto.xcworkspace -scheme "$SCHEME" -destination "$DESTINATION" $ACTION | xcpretty

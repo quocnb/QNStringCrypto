@@ -1,5 +1,5 @@
 framework module QNStringCrypto {
-  umbrella header "QNStringCrypto-umbrella.h"
+  umbrella header "QNStringCrypto-macOS-umbrella.h"
 
   export *
   module * { export * }

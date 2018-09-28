@@ -1,9 +1,16 @@
 use_frameworks!
 
+pod 'QNStringCrypto', :path => '../'
+
 target 'QNStringCrypto_Example' do
-  pod 'QNStringCrypto', :path => '../'
 
   target 'QNStringCrypto_Tests' do
+    inherit! :search_paths
+  end
+end
+
+target 'QNStringCrypto-Mac' do
+  target 'QNStringCrypto-MacTests' do
     inherit! :search_paths
   end
 end

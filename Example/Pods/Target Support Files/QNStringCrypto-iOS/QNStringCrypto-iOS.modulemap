@@ -1,0 +1,6 @@
+framework module QNStringCrypto {
+  umbrella header "QNStringCrypto-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

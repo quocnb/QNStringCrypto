@@ -1,6 +1,6 @@
 # QNStringCrypto
 
-[![CI Status](https://img.shields.io/travis/quocnb/QNStringCrypto.svg?style=flat)](https://travis-ci.org/quocnb/QNStringCrypto)
+[![Build Status](https://travis-ci.com/quocnb/QNStringCrypto.svg?branch=0.1.0)](https://travis-ci.com/quocnb/QNStringCrypto)
 [![Version](https://img.shields.io/cocoapods/v/QNStringCrypto.svg?style=flat)](https://cocoapods.org/pods/QNStringCrypto)
 [![License](https://img.shields.io/cocoapods/l/QNStringCrypto.svg?style=flat)](https://cocoapods.org/pods/QNStringCrypto)
 [![Platform](https://img.shields.io/cocoapods/p/QNStringCrypto.svg?style=flat)](https://cocoapods.org/pods/QNStringCrypto)
@@ -10,6 +10,9 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- **Swift 4.2**
+- **iOS 9.0** and later
+- **Mac OS 10.13** and later
 
 ## Installation
 

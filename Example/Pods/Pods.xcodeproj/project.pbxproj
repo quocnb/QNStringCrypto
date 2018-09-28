@@ -7,73 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19826155FCA980616FA9B606BC01A3C8 /* Pods-QNStringCrypto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14743892BEF29C14A97CC66F57F8DD1 /* Pods-QNStringCrypto_Tests-dummy.m */; };
-		2B6D361723D160D36F9AC718AE77679B /* QNStringCrypto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70986AEC73F3CC2BD9D5BA23509647C1 /* QNStringCrypto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32DF5EE7E63AD384942BB01500969E73 /* QNStringCrypto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEFB13A798BCC0C479DA7116259E99 /* QNStringCrypto-dummy.m */; };
-		7994E704215DBE98006571D1 /* String+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E703215DBE98006571D1 /* String+Crypto.swift */; };
-		7994E705215DBE98006571D1 /* String+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E703215DBE98006571D1 /* String+Crypto.swift */; };
-		7994E706215DBE98006571D1 /* String+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7994E703215DBE98006571D1 /* String+Crypto.swift */; };
-		94F5949716FC537C80ED7216B7AB99A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9FB20F798E17B657CC3C3B176E98BE6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A6F49AC5B67E8AC4FD8BBEA684BA9D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		B6D32BB20D5E862E99D1DC09B6434961 /* Pods-QNStringCrypto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E534151A04F8BED5882AACBBFB7A3CD8 /* Pods-QNStringCrypto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8BE465F98846705E1CF6FEC3FB130E2 /* Pods-QNStringCrypto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9368258959B967EC6E380DFBDCF08A /* Pods-QNStringCrypto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D47721B85A5EDA50E8FE46C223BC610B /* Pods-QNStringCrypto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F6E8D287BBDB533B097DBFFD777EF2 /* Pods-QNStringCrypto_Example-dummy.m */; };
+		19826155FCA980616FA9B606BC01A3C8 /* Pods-QNStringCrypto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C3D97E7FFBD603CE6FFE68788CF8A /* Pods-QNStringCrypto_Tests-dummy.m */; };
+		340FA175273B6887F0383B10F60DCA4D /* String+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537779E66C9F1AEAF9858AE0FAF7EE8 /* String+Crypto.swift */; };
+		3A37EC157E2BE3D011D37000543C564F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
+		41C17FBE0A4DB6834C8C9DD708F42E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */; };
+		537D7A9656312C807C17756A7DD5E05E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
+		56BC6FE2358451D1B7DFF08816F229C6 /* String+Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537779E66C9F1AEAF9858AE0FAF7EE8 /* String+Crypto.swift */; };
+		587D34DA296A01FFCEC936CE405F9490 /* Pods-QNStringCrypto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1885CE54AA6D17B5227C5F35541C2780 /* Pods-QNStringCrypto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729EE84020D9EFD9D4EFDAF46ED1EE0C /* Pods-QNStringCrypto-Mac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA1D44BF9AA51B62FC2998DBB966B53 /* Pods-QNStringCrypto-Mac-dummy.m */; };
+		7CE1112718743572E748F0F59907FF0B /* Pods-QNStringCrypto-Mac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 892F022FD4C73A68396E63A01923A234 /* Pods-QNStringCrypto-Mac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827C12135EC71AFC2840B37AC68477D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */; };
+		94F5949716FC537C80ED7216B7AB99A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */; };
+		9B2C330EED46FF6F9210AA808AB77000 /* Pods-QNStringCrypto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC700624A39513D8B4803DB503E89CBE /* Pods-QNStringCrypto_Example-dummy.m */; };
+		A66551FC5205DE9213BE4ED0A607CF1A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */; };
+		AE038BFB1EF4F29CB68002A9AAA3C4A8 /* Pods-QNStringCrypto-MacTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CED2A28BE2145F3563AC4D384D01B677 /* Pods-QNStringCrypto-MacTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6D32BB20D5E862E99D1DC09B6434961 /* Pods-QNStringCrypto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 677AC5263E6784D7FDEB8D6715069829 /* Pods-QNStringCrypto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBA3E8A62686E6A8BA98E116A27938B0 /* Pods-QNStringCrypto-MacTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E66AD30F1B7EC6235C8E554A986D89 /* Pods-QNStringCrypto-MacTests-dummy.m */; };
+		D5F3F54ACFC497FE41BA6C0820476642 /* QNStringCrypto-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5DCC035B8B6D4096D2B7BF698DB1B /* QNStringCrypto-macOS-dummy.m */; };
+		E406CD43F83C12E2F5E4901E53453DB2 /* QNStringCrypto-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A6163C8DCB99DCAB797EAC6C2D8D90 /* QNStringCrypto-iOS-dummy.m */; };
+		EBEC74C5F5CCFC7BDFC1BACBABBB4490 /* QNStringCrypto-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66A18627961A17DD93E7B60FE11B6D5C /* QNStringCrypto-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5635B101040D95403464AEFBA8C6B05 /* QNStringCrypto-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27CD4DA469A4E9441BE869C8E5A9F587 /* QNStringCrypto-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		83FC370244919C2A19C8DE86AD5D0786 /* PBXContainerItemProxy */ = {
+		08B5AACFF2AAF2D1D319B164976813FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8D91D7BC51C8BC76A4ED3D4462F931A;
-			remoteInfo = QNStringCrypto;
+			remoteGlobalIDString = 3B4E3F3B5E43AFD1393B7DBEDF7A90BC;
+			remoteInfo = "QNStringCrypto-iOS";
+		};
+		577B3EAF75049AA83A12DC0BC35BB6D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF14DA28DD8AC38A84E62666B139824;
+			remoteInfo = "QNStringCrypto-macOS";
 		};
 		DEFC78B9E754162839ACEF74BFE50725 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 07C143AD2C6276C4F833F8C7CB2C66B9;
+			remoteGlobalIDString = 7F670B83822894F34B4882B30BA859FC;
 			remoteInfo = "Pods-QNStringCrypto_Example";
+		};
+		F6A347530EA07F728295BEDD3C54A878 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B7A88E8A857237D85871779F58E281F;
+			remoteInfo = "Pods-QNStringCrypto-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038023FEA803FBF0BD799CE07C3692A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13EFFBCBA52F591C59A187C8EB594410 /* Pods-QNStringCrypto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1DCF61F94BE0E5A6E1248BD1CE388034 /* Pods-QNStringCrypto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNStringCrypto_Example.modulemap"; sourceTree = "<group>"; };
-		1FAFE1CEFCAC93277E6BDFCC68CADF16 /* Pods_QNStringCrypto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNStringCrypto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2040C38BEFE86B68221BE30BD4002262 /* Pods-QNStringCrypto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNStringCrypto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3BD93419B52069F8642F4C7678444EDC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		49AA31A2E6BE6674CF13363E33DE8163 /* Pods-QNStringCrypto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4FAEFB13A798BCC0C479DA7116259E99 /* QNStringCrypto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QNStringCrypto-dummy.m"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5E08A0F37D8B5B7C469F727AC2758A13 /* QNStringCrypto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QNStringCrypto.modulemap; sourceTree = "<group>"; };
-		6BA2ECEC64CB63633897A0682E04994B /* Pods_QNStringCrypto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNStringCrypto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EF90FB7D2C8EAB6AA099DCE1CCD4339 /* Pods-QNStringCrypto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		70986AEC73F3CC2BD9D5BA23509647C1 /* QNStringCrypto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNStringCrypto-umbrella.h"; sourceTree = "<group>"; };
-		74584D83213CBAE3B278D512E42F41AF /* Pods-QNStringCrypto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Tests-resources.sh"; sourceTree = "<group>"; };
-		7994E703215DBE98006571D1 /* String+Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+Crypto.swift"; path = "QNStringCrypto/Classes/String+Crypto.swift"; sourceTree = "<group>"; };
+		0B55F993A6A84F4935528678306150C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBD304954247FFF1F165F7F8545040C /* QNStringCrypto-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QNStringCrypto-macOS-prefix.pch"; path = "../QNStringCrypto-macOS/QNStringCrypto-macOS-prefix.pch"; sourceTree = "<group>"; };
+		170FEC90985947E128494A0BBB94A57E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1885CE54AA6D17B5227C5F35541C2780 /* Pods-QNStringCrypto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNStringCrypto_Example-umbrella.h"; sourceTree = "<group>"; };
+		19B7B8D4EF1944F7613490C33E8F87CB /* Pods-QNStringCrypto-Mac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNStringCrypto-Mac.modulemap"; sourceTree = "<group>"; };
+		2119203002FF1A3E0978941ADCFD8323 /* Pods-QNStringCrypto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2339EACFAEA0F3F768FAC3340CB50529 /* Pods-QNStringCrypto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Example-resources.sh"; sourceTree = "<group>"; };
+		27864710FED70641E5C7B9AB69BB3BBC /* Pods-QNStringCrypto-MacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto-MacTests.release.xcconfig"; sourceTree = "<group>"; };
+		27CD4DA469A4E9441BE869C8E5A9F587 /* QNStringCrypto-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNStringCrypto-iOS-umbrella.h"; sourceTree = "<group>"; };
+		2CFDB5C3CD155531A95CC1548AF36AF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D34198D537AC37F92F3552F629B63D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		340521C92D0186D6F7B4349253CA89AE /* Pods-QNStringCrypto-MacTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNStringCrypto-MacTests.modulemap"; sourceTree = "<group>"; };
+		34175F6F83A6CA0E3C3E29CAC6EF1C84 /* QNStringCrypto-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "QNStringCrypto-iOS.modulemap"; sourceTree = "<group>"; };
+		3A4AC1EF8ADC24CE6366287295884FAB /* QNStringCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNStringCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC646AE4E5C9122A2F1B449FCA24BB9 /* QNStringCrypto-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QNStringCrypto-iOS.xcconfig"; sourceTree = "<group>"; };
+		3C864907E77B416EDB6F4EDC6830DE61 /* Pods-QNStringCrypto-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto-Mac.release.xcconfig"; sourceTree = "<group>"; };
+		3FDCC1C425F9E0249ABFFEB7B4E503CB /* Pods-QNStringCrypto-MacTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto-MacTests-resources.sh"; sourceTree = "<group>"; };
+		40E26389FA0BFB0937C56785F0B159C4 /* Pods-QNStringCrypto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Tests-resources.sh"; sourceTree = "<group>"; };
+		452C5A3A46A79B687F62C9BC782702E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../QNStringCrypto-macOS/Info.plist"; sourceTree = "<group>"; };
+		4B6051C17192CBAFB1298F115B67C17D /* QNStringCrypto-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNStringCrypto-iOS-prefix.pch"; sourceTree = "<group>"; };
+		4C0742C44A33F366EF25BAAA54ACC5FF /* Pods-QNStringCrypto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0C3D97E7FFBD603CE6FFE68788CF8A /* Pods-QNStringCrypto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNStringCrypto_Tests-dummy.m"; sourceTree = "<group>"; };
+		4F2457FFD653649679A86F51AAB8A562 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		522D9810AAF7D1D5C17E9B549D380D10 /* Pods-QNStringCrypto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNStringCrypto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		630CFC9284071918195A0420FCBD14A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A18627961A17DD93E7B60FE11B6D5C /* QNStringCrypto-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QNStringCrypto-macOS-umbrella.h"; path = "../QNStringCrypto-macOS/QNStringCrypto-macOS-umbrella.h"; sourceTree = "<group>"; };
+		677AC5263E6784D7FDEB8D6715069829 /* Pods-QNStringCrypto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNStringCrypto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FB4D989CF6194463FEECE5E4FB48745 /* Pods-QNStringCrypto-MacTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNStringCrypto-MacTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		76069F05BF296DDD1E0E30E4F5F1AC6E /* Pods-QNStringCrypto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		78DF437344D7090E86D769960B04601F /* Pods_QNStringCrypto_MacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNStringCrypto_MacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796D298C44FC01A56104E915E29A3998 /* Pods-QNStringCrypto-MacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto-MacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DA46026BA5D4C89D0A4B29D91F3ACE0 /* Pods-QNStringCrypto-Mac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNStringCrypto-Mac-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F4B102D16748CDC9B790F3F91CB6303 /* Pods-QNStringCrypto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNStringCrypto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83E66AD30F1B7EC6235C8E554A986D89 /* Pods-QNStringCrypto-MacTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNStringCrypto-MacTests-dummy.m"; sourceTree = "<group>"; };
+		85A6163C8DCB99DCAB797EAC6C2D8D90 /* QNStringCrypto-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QNStringCrypto-iOS-dummy.m"; sourceTree = "<group>"; };
+		8704AAE83EF3ED290F70E0A909A82DAD /* Pods-QNStringCrypto-Mac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto-Mac-frameworks.sh"; sourceTree = "<group>"; };
+		892F022FD4C73A68396E63A01923A234 /* Pods-QNStringCrypto-Mac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNStringCrypto-Mac-umbrella.h"; sourceTree = "<group>"; };
+		8CF9A4C79927471773B7ACD0F0017B5F /* Pods-QNStringCrypto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNStringCrypto_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9604F8FDDCBF0EA0920C57C39562A6FD /* Pods-QNStringCrypto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9B1E752737904B3B431895052E238769 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BB98C7C2F5F0B60292A3D94AC1F6BC3 /* Pods-QNStringCrypto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Example-resources.sh"; sourceTree = "<group>"; };
-		9C9368258959B967EC6E380DFBDCF08A /* Pods-QNStringCrypto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNStringCrypto_Example-umbrella.h"; sourceTree = "<group>"; };
-		A66EAA6F94BA05626F686E09342EF7C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B92CF88A33E6B908B729703D22A19361 /* Pods-QNStringCrypto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNStringCrypto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C07DDC6BFA619272007D2F07AFE6DFAB /* QNStringCrypto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QNStringCrypto.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C468946F50D9CE702DCD0B45D9EB122C /* Pods-QNStringCrypto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNStringCrypto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C48A1CF7AFA2CB7B507C3EBAD0CEE0B9 /* QNStringCrypto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QNStringCrypto.xcconfig; sourceTree = "<group>"; };
-		CB1088C7E042CBFF322E27A80D2034DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFBEE5777CB8C0AFBFCBBFD3E75497E5 /* Pods-QNStringCrypto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNStringCrypto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E351C0F2E8E862E43AEC636A3F516C19 /* Pods-QNStringCrypto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNStringCrypto_Tests.modulemap"; sourceTree = "<group>"; };
-		E534151A04F8BED5882AACBBFB7A3CD8 /* Pods-QNStringCrypto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNStringCrypto_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E62747DC7878E10F47774E63F0B88B7B /* QNStringCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNStringCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9F6E8D287BBDB533B097DBFFD777EF2 /* Pods-QNStringCrypto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNStringCrypto_Example-dummy.m"; sourceTree = "<group>"; };
-		F14743892BEF29C14A97CC66F57F8DD1 /* Pods-QNStringCrypto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNStringCrypto_Tests-dummy.m"; sourceTree = "<group>"; };
-		F409A485991F53E3A3ED85637ADF89F2 /* QNStringCrypto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QNStringCrypto-prefix.pch"; sourceTree = "<group>"; };
-		F6983216593C2B56980D318BB33A2E7F /* Pods-QNStringCrypto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FCF1C53B3A2EB59031CEA742EB3C0C51 /* Pods-QNStringCrypto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		94CE67B725D3E407B466387AC95E5757 /* Pods-QNStringCrypto-MacTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto-MacTests-frameworks.sh"; sourceTree = "<group>"; };
+		9D69DD68833CFA4F588A20BDF615BF9C /* Pods_QNStringCrypto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNStringCrypto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1A5DCC035B8B6D4096D2B7BF698DB1B /* QNStringCrypto-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QNStringCrypto-macOS-dummy.m"; path = "../QNStringCrypto-macOS/QNStringCrypto-macOS-dummy.m"; sourceTree = "<group>"; };
+		A5B007A567E380CC409FE9BC763D7C94 /* Pods_QNStringCrypto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNStringCrypto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7FE6DCB690C031C8C225CDEA1D6F63 /* Pods-QNStringCrypto-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto-Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA1D44BF9AA51B62FC2998DBB966B53 /* Pods-QNStringCrypto-Mac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNStringCrypto-Mac-dummy.m"; sourceTree = "<group>"; };
+		AFF8F9011BCF464CED144521D38B9824 /* QNStringCrypto-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "QNStringCrypto-macOS.modulemap"; path = "../QNStringCrypto-macOS/QNStringCrypto-macOS.modulemap"; sourceTree = "<group>"; };
+		B29C0A3FCD020ED092A06F1B0CF5D307 /* Pods-QNStringCrypto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNStringCrypto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB9EA04A5B3CECB079E7F41FC8C4375F /* QNStringCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QNStringCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC700624A39513D8B4803DB503E89CBE /* Pods-QNStringCrypto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QNStringCrypto_Example-dummy.m"; sourceTree = "<group>"; };
+		BDDBE4F90434E07F10C6AD8623C1AF80 /* Pods-QNStringCrypto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QNStringCrypto_Tests.modulemap"; sourceTree = "<group>"; };
+		C2C30A9D8489C4154D9CC4EE787FBA01 /* Pods-QNStringCrypto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C6487344245CBC69D8AE5C383549E503 /* Pods-QNStringCrypto-MacTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNStringCrypto-MacTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB11CBEECFBA291D816F8C6EE2DA0404 /* Pods-QNStringCrypto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CED2A28BE2145F3563AC4D384D01B677 /* Pods-QNStringCrypto-MacTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QNStringCrypto-MacTests-umbrella.h"; sourceTree = "<group>"; };
+		D04574410496680F1D00EA924BD9382D /* Pods-QNStringCrypto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QNStringCrypto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0FA2ED32FF5DB57B1AD7C24D9E5424E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8743FC3B091730617EB885864C6C595 /* QNStringCrypto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QNStringCrypto.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB054C010B9A70F9D44E93B33940F5F1 /* Pods-QNStringCrypto-Mac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QNStringCrypto-Mac-resources.sh"; sourceTree = "<group>"; };
+		E063526314A7607E03913B82046EA1FC /* QNStringCrypto-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QNStringCrypto-macOS.xcconfig"; path = "../QNStringCrypto-macOS/QNStringCrypto-macOS.xcconfig"; sourceTree = "<group>"; };
+		E72719AD502554C0169AF70BB57E5476 /* Pods_QNStringCrypto_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QNStringCrypto_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E3F4938536E2DD927C9762CAB32F91 /* Pods-QNStringCrypto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QNStringCrypto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F537779E66C9F1AEAF9858AE0FAF7EE8 /* String+Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Crypto.swift"; path = "QNStringCrypto/Classes/String+Crypto.swift"; sourceTree = "<group>"; };
+		F654DAB3E3E23684F242996CEFCE58ED /* Pods-QNStringCrypto-Mac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QNStringCrypto-Mac-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,19 +137,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B99D6A69587F26C5326017FE743D499D /* Frameworks */ = {
+		228983AB4C540A7A582E536F534C4065 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F49AC5B67E8AC4FD8BBEA684BA9D66 /* Foundation.framework in Frameworks */,
+				41C17FBE0A4DB6834C8C9DD708F42E98 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E571920759F6F5BC1F60203A5EB5F40D /* Frameworks */ = {
+		86A0D731B2417187A087273E12B6921F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FB20F798E17B657CC3C3B176E98BE6F /* Foundation.framework in Frameworks */,
+				827C12135EC71AFC2840B37AC68477D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF335CD4790872F6B649139FEAEF953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537D7A9656312C807C17756A7DD5E05E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF89653AD10A5D8D7211A364F8EBFB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A37EC157E2BE3D011D37000543C564F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF44160804DDA903B178C338196F3E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66551FC5205DE9213BE4ED0A607CF1A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,85 +183,94 @@
 		087D5B2A907BF822CE17263FA531C328 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D115C113DB737C3A0CF4E615873C7CC /* QNStringCrypto */,
+				2B1667197CDA7E418208077178E5D79A /* QNStringCrypto */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		17508222BB976849D473F14A7BF06610 /* Products */ = {
+		27260C605C6BF328A13CFF2B4EE48144 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6BA2ECEC64CB63633897A0682E04994B /* Pods_QNStringCrypto_Example.framework */,
-				1FAFE1CEFCAC93277E6BDFCC68CADF16 /* Pods_QNStringCrypto_Tests.framework */,
-				E62747DC7878E10F47774E63F0B88B7B /* QNStringCrypto.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1C38C22618A0A9F84F83A3DEE1037696 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CB1088C7E042CBFF322E27A80D2034DD /* Info.plist */,
-				5E08A0F37D8B5B7C469F727AC2758A13 /* QNStringCrypto.modulemap */,
-				C48A1CF7AFA2CB7B507C3EBAD0CEE0B9 /* QNStringCrypto.xcconfig */,
-				4FAEFB13A798BCC0C479DA7116259E99 /* QNStringCrypto-dummy.m */,
-				F409A485991F53E3A3ED85637ADF89F2 /* QNStringCrypto-prefix.pch */,
-				70986AEC73F3CC2BD9D5BA23509647C1 /* QNStringCrypto-umbrella.h */,
+				2CFDB5C3CD155531A95CC1548AF36AF6 /* Info.plist */,
+				452C5A3A46A79B687F62C9BC782702E4 /* Info.plist */,
+				34175F6F83A6CA0E3C3E29CAC6EF1C84 /* QNStringCrypto-iOS.modulemap */,
+				3BC646AE4E5C9122A2F1B449FCA24BB9 /* QNStringCrypto-iOS.xcconfig */,
+				85A6163C8DCB99DCAB797EAC6C2D8D90 /* QNStringCrypto-iOS-dummy.m */,
+				4B6051C17192CBAFB1298F115B67C17D /* QNStringCrypto-iOS-prefix.pch */,
+				27CD4DA469A4E9441BE869C8E5A9F587 /* QNStringCrypto-iOS-umbrella.h */,
+				AFF8F9011BCF464CED144521D38B9824 /* QNStringCrypto-macOS.modulemap */,
+				E063526314A7607E03913B82046EA1FC /* QNStringCrypto-macOS.xcconfig */,
+				A1A5DCC035B8B6D4096D2B7BF698DB1B /* QNStringCrypto-macOS-dummy.m */,
+				0DBD304954247FFF1F165F7F8545040C /* QNStringCrypto-macOS-prefix.pch */,
+				66A18627961A17DD93E7B60FE11B6D5C /* QNStringCrypto-macOS-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QNStringCrypto";
+			path = "Example/Pods/Target Support Files/QNStringCrypto-iOS";
 			sourceTree = "<group>";
 		};
-		4820501C60F9C2A7D54A586BF1850D1E /* Pods-QNStringCrypto_Example */ = {
+		28EACB824F82E0554F3D135A69A7CBDB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B1E752737904B3B431895052E238769 /* Info.plist */,
-				1DCF61F94BE0E5A6E1248BD1CE388034 /* Pods-QNStringCrypto_Example.modulemap */,
-				2040C38BEFE86B68221BE30BD4002262 /* Pods-QNStringCrypto_Example-acknowledgements.markdown */,
-				C468946F50D9CE702DCD0B45D9EB122C /* Pods-QNStringCrypto_Example-acknowledgements.plist */,
-				E9F6E8D287BBDB533B097DBFFD777EF2 /* Pods-QNStringCrypto_Example-dummy.m */,
-				49AA31A2E6BE6674CF13363E33DE8163 /* Pods-QNStringCrypto_Example-frameworks.sh */,
-				9BB98C7C2F5F0B60292A3D94AC1F6BC3 /* Pods-QNStringCrypto_Example-resources.sh */,
-				9C9368258959B967EC6E380DFBDCF08A /* Pods-QNStringCrypto_Example-umbrella.h */,
-				9604F8FDDCBF0EA0920C57C39562A6FD /* Pods-QNStringCrypto_Example.debug.xcconfig */,
-				13EFFBCBA52F591C59A187C8EB594410 /* Pods-QNStringCrypto_Example.release.xcconfig */,
+				F03489B5A760AA7D285FB1695FC7B65F /* Pods-QNStringCrypto-Mac */,
+				8478B7CB132AA95D1AA10BE993AC227A /* Pods-QNStringCrypto-MacTests */,
+				D1124967DC59DDC78BB31891D490423B /* Pods-QNStringCrypto_Example */,
+				35DCD0C4822C5B175FA66360E042A777 /* Pods-QNStringCrypto_Tests */,
 			);
-			name = "Pods-QNStringCrypto_Example";
-			path = "Target Support Files/Pods-QNStringCrypto_Example";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		2B1667197CDA7E418208077178E5D79A /* QNStringCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+				F537779E66C9F1AEAF9858AE0FAF7EE8 /* String+Crypto.swift */,
+				48D4D8391DCB4BA2957369D2E4994614 /* Pod */,
+				27260C605C6BF328A13CFF2B4EE48144 /* Support Files */,
 			);
-			name = iOS;
+			name = QNStringCrypto;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		63BC96954208F6CE1D14C94859C3F457 /* Pods-QNStringCrypto_Tests */ = {
+		34BE8B02178A92BA2FB4B7888ECF14F5 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				038023FEA803FBF0BD799CE07C3692A1 /* Info.plist */,
-				E351C0F2E8E862E43AEC636A3F516C19 /* Pods-QNStringCrypto_Tests.modulemap */,
-				B92CF88A33E6B908B729703D22A19361 /* Pods-QNStringCrypto_Tests-acknowledgements.markdown */,
-				DFBEE5777CB8C0AFBFCBBFD3E75497E5 /* Pods-QNStringCrypto_Tests-acknowledgements.plist */,
-				F14743892BEF29C14A97CC66F57F8DD1 /* Pods-QNStringCrypto_Tests-dummy.m */,
-				F6983216593C2B56980D318BB33A2E7F /* Pods-QNStringCrypto_Tests-frameworks.sh */,
-				74584D83213CBAE3B278D512E42F41AF /* Pods-QNStringCrypto_Tests-resources.sh */,
-				E534151A04F8BED5882AACBBFB7A3CD8 /* Pods-QNStringCrypto_Tests-umbrella.h */,
-				6EF90FB7D2C8EAB6AA099DCE1CCD4339 /* Pods-QNStringCrypto_Tests.debug.xcconfig */,
-				FCF1C53B3A2EB59031CEA742EB3C0C51 /* Pods-QNStringCrypto_Tests.release.xcconfig */,
+				51FC1E5D1F5671E0532D52CB477AC228 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		35DCD0C4822C5B175FA66360E042A777 /* Pods-QNStringCrypto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				630CFC9284071918195A0420FCBD14A2 /* Info.plist */,
+				BDDBE4F90434E07F10C6AD8623C1AF80 /* Pods-QNStringCrypto_Tests.modulemap */,
+				7F4B102D16748CDC9B790F3F91CB6303 /* Pods-QNStringCrypto_Tests-acknowledgements.markdown */,
+				B29C0A3FCD020ED092A06F1B0CF5D307 /* Pods-QNStringCrypto_Tests-acknowledgements.plist */,
+				4F0C3D97E7FFBD603CE6FFE68788CF8A /* Pods-QNStringCrypto_Tests-dummy.m */,
+				76069F05BF296DDD1E0E30E4F5F1AC6E /* Pods-QNStringCrypto_Tests-frameworks.sh */,
+				40E26389FA0BFB0937C56785F0B159C4 /* Pods-QNStringCrypto_Tests-resources.sh */,
+				677AC5263E6784D7FDEB8D6715069829 /* Pods-QNStringCrypto_Tests-umbrella.h */,
+				2119203002FF1A3E0978941ADCFD8323 /* Pods-QNStringCrypto_Tests.debug.xcconfig */,
+				CB11CBEECFBA291D816F8C6EE2DA0404 /* Pods-QNStringCrypto_Tests.release.xcconfig */,
 			);
 			name = "Pods-QNStringCrypto_Tests";
 			path = "Target Support Files/Pods-QNStringCrypto_Tests";
 			sourceTree = "<group>";
 		};
-		7BD850BCBF3C39D4F75DB42D0CA0E317 /* Pod */ = {
+		3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A66EAA6F94BA05626F686E09342EF7C6 /* LICENSE */,
-				C07DDC6BFA619272007D2F07AFE6DFAB /* QNStringCrypto.podspec */,
-				3BD93419B52069F8642F4C7678444EDC /* README.md */,
+				FA3AAB077231D63C079B0E9C7476D0BC /* iOS */,
+				34BE8B02178A92BA2FB4B7888ECF14F5 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48D4D8391DCB4BA2957369D2E4994614 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F2457FFD653649679A86F51AAB8A562 /* LICENSE */,
+				D8743FC3B091730617EB885864C6C595 /* QNStringCrypto.podspec */,
+				2D34198D537AC37F92F3552F629B63D9 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -195,38 +280,85 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				087D5B2A907BF822CE17263FA531C328 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				17508222BB976849D473F14A7BF06610 /* Products */,
-				94FFDA644C21186066294E7F0DC48C29 /* Targets Support Files */,
+				3AEF7D761E8EA8419BB4A7000AB770CB /* Frameworks */,
+				E34A6D94449C5AFAB5AC86C256AD7671 /* Products */,
+				28EACB824F82E0554F3D135A69A7CBDB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		94FFDA644C21186066294E7F0DC48C29 /* Targets Support Files */ = {
+		8478B7CB132AA95D1AA10BE993AC227A /* Pods-QNStringCrypto-MacTests */ = {
 			isa = PBXGroup;
 			children = (
-				4820501C60F9C2A7D54A586BF1850D1E /* Pods-QNStringCrypto_Example */,
-				63BC96954208F6CE1D14C94859C3F457 /* Pods-QNStringCrypto_Tests */,
+				0B55F993A6A84F4935528678306150C9 /* Info.plist */,
+				340521C92D0186D6F7B4349253CA89AE /* Pods-QNStringCrypto-MacTests.modulemap */,
+				C6487344245CBC69D8AE5C383549E503 /* Pods-QNStringCrypto-MacTests-acknowledgements.markdown */,
+				6FB4D989CF6194463FEECE5E4FB48745 /* Pods-QNStringCrypto-MacTests-acknowledgements.plist */,
+				83E66AD30F1B7EC6235C8E554A986D89 /* Pods-QNStringCrypto-MacTests-dummy.m */,
+				94CE67B725D3E407B466387AC95E5757 /* Pods-QNStringCrypto-MacTests-frameworks.sh */,
+				3FDCC1C425F9E0249ABFFEB7B4E503CB /* Pods-QNStringCrypto-MacTests-resources.sh */,
+				CED2A28BE2145F3563AC4D384D01B677 /* Pods-QNStringCrypto-MacTests-umbrella.h */,
+				796D298C44FC01A56104E915E29A3998 /* Pods-QNStringCrypto-MacTests.debug.xcconfig */,
+				27864710FED70641E5C7B9AB69BB3BBC /* Pods-QNStringCrypto-MacTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-QNStringCrypto-MacTests";
+			path = "Target Support Files/Pods-QNStringCrypto-MacTests";
 			sourceTree = "<group>";
 		};
-		9D115C113DB737C3A0CF4E615873C7CC /* QNStringCrypto */ = {
+		D1124967DC59DDC78BB31891D490423B /* Pods-QNStringCrypto_Example */ = {
 			isa = PBXGroup;
 			children = (
-				7994E703215DBE98006571D1 /* String+Crypto.swift */,
-				7BD850BCBF3C39D4F75DB42D0CA0E317 /* Pod */,
-				1C38C22618A0A9F84F83A3DEE1037696 /* Support Files */,
+				D0FA2ED32FF5DB57B1AD7C24D9E5424E /* Info.plist */,
+				8CF9A4C79927471773B7ACD0F0017B5F /* Pods-QNStringCrypto_Example.modulemap */,
+				522D9810AAF7D1D5C17E9B549D380D10 /* Pods-QNStringCrypto_Example-acknowledgements.markdown */,
+				F3E3F4938536E2DD927C9762CAB32F91 /* Pods-QNStringCrypto_Example-acknowledgements.plist */,
+				BC700624A39513D8B4803DB503E89CBE /* Pods-QNStringCrypto_Example-dummy.m */,
+				C2C30A9D8489C4154D9CC4EE787FBA01 /* Pods-QNStringCrypto_Example-frameworks.sh */,
+				2339EACFAEA0F3F768FAC3340CB50529 /* Pods-QNStringCrypto_Example-resources.sh */,
+				1885CE54AA6D17B5227C5F35541C2780 /* Pods-QNStringCrypto_Example-umbrella.h */,
+				4C0742C44A33F366EF25BAAA54ACC5FF /* Pods-QNStringCrypto_Example.debug.xcconfig */,
+				D04574410496680F1D00EA924BD9382D /* Pods-QNStringCrypto_Example.release.xcconfig */,
 			);
-			name = QNStringCrypto;
-			path = ../..;
+			name = "Pods-QNStringCrypto_Example";
+			path = "Target Support Files/Pods-QNStringCrypto_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E34A6D94449C5AFAB5AC86C256AD7671 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				A5B007A567E380CC409FE9BC763D7C94 /* Pods_QNStringCrypto_Example.framework */,
+				E72719AD502554C0169AF70BB57E5476 /* Pods_QNStringCrypto_Mac.framework */,
+				78DF437344D7090E86D769960B04601F /* Pods_QNStringCrypto_MacTests.framework */,
+				9D69DD68833CFA4F588A20BDF615BF9C /* Pods_QNStringCrypto_Tests.framework */,
+				BB9EA04A5B3CECB079E7F41FC8C4375F /* QNStringCrypto.framework */,
+				3A4AC1EF8ADC24CE6366287295884FAB /* QNStringCrypto.framework */,
 			);
-			name = Frameworks;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03489B5A760AA7D285FB1695FC7B65F /* Pods-QNStringCrypto-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				170FEC90985947E128494A0BBB94A57E /* Info.plist */,
+				19B7B8D4EF1944F7613490C33E8F87CB /* Pods-QNStringCrypto-Mac.modulemap */,
+				F654DAB3E3E23684F242996CEFCE58ED /* Pods-QNStringCrypto-Mac-acknowledgements.markdown */,
+				7DA46026BA5D4C89D0A4B29D91F3ACE0 /* Pods-QNStringCrypto-Mac-acknowledgements.plist */,
+				ABA1D44BF9AA51B62FC2998DBB966B53 /* Pods-QNStringCrypto-Mac-dummy.m */,
+				8704AAE83EF3ED290F70E0A909A82DAD /* Pods-QNStringCrypto-Mac-frameworks.sh */,
+				DB054C010B9A70F9D44E93B33940F5F1 /* Pods-QNStringCrypto-Mac-resources.sh */,
+				892F022FD4C73A68396E63A01923A234 /* Pods-QNStringCrypto-Mac-umbrella.h */,
+				AA7FE6DCB690C031C8C225CDEA1D6F63 /* Pods-QNStringCrypto-Mac.debug.xcconfig */,
+				3C864907E77B416EDB6F4EDC6830DE61 /* Pods-QNStringCrypto-Mac.release.xcconfig */,
+			);
+			name = "Pods-QNStringCrypto-Mac";
+			path = "Target Support Files/Pods-QNStringCrypto-Mac";
+			sourceTree = "<group>";
+		};
+		FA3AAB077231D63C079B0E9C7476D0BC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6A3B95749CB04F60F62DDD9D7467DC4D /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,41 +372,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CCD592583DCFF4380B570BAD4A99C12 /* Headers */ = {
+		4E39C9565576DF7709EFE29AE401544A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B6D361723D160D36F9AC718AE77679B /* QNStringCrypto-umbrella.h in Headers */,
+				AE038BFB1EF4F29CB68002A9AAA3C4A8 /* Pods-QNStringCrypto-MacTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9FAD07AD50C52AFDD52A34D1767E264 /* Headers */ = {
+		5761FE737CA337E950ECD36A757F7ED8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BE465F98846705E1CF6FEC3FB130E2 /* Pods-QNStringCrypto_Example-umbrella.h in Headers */,
+				F5635B101040D95403464AEFBA8C6B05 /* QNStringCrypto-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781EA008BC8038E13093E5C22FA35A44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEC74C5F5CCFC7BDFC1BACBABBB4490 /* QNStringCrypto-macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7BDB1491896236EA54B7A65E6E1EAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587D34DA296A01FFCEC936CE405F9490 /* Pods-QNStringCrypto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E116EB9FA1892F9C614886F43705CE54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE1112718743572E748F0F59907FF0B /* Pods-QNStringCrypto-Mac-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		07C143AD2C6276C4F833F8C7CB2C66B9 /* Pods-QNStringCrypto_Example */ = {
+		0B7A88E8A857237D85871779F58E281F /* Pods-QNStringCrypto-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 671691F92B146EA6AE57D5BCF38B355E /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto_Example" */;
+			buildConfigurationList = 5E9783BF077FFCD14D3CEF8662BA490E /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto-Mac" */;
 			buildPhases = (
-				C724292702D9A878ACD122FA94D32D0B /* Sources */,
-				E571920759F6F5BC1F60203A5EB5F40D /* Frameworks */,
-				D9FAD07AD50C52AFDD52A34D1767E264 /* Headers */,
+				D710D6310208AD2B192B729306B55E15 /* Sources */,
+				DEF89653AD10A5D8D7211A364F8EBFB9 /* Frameworks */,
+				E116EB9FA1892F9C614886F43705CE54 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AAFEECC632EDDDCFF437B830FEB4AFA4 /* PBXTargetDependency */,
+				6F35EEF1A203C49FB0EDC931F62BEBE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-QNStringCrypto-Mac";
+			productName = "Pods-QNStringCrypto-Mac";
+			productReference = E72719AD502554C0169AF70BB57E5476 /* Pods_QNStringCrypto_Mac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B4E3F3B5E43AFD1393B7DBEDF7A90BC /* QNStringCrypto-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DCB87EA5E5E0F0BA8BE4578B78B534 /* Build configuration list for PBXNativeTarget "QNStringCrypto-iOS" */;
+			buildPhases = (
+				BCAAC52F059003EA8E5714351C7E0605 /* Sources */,
+				86A0D731B2417187A087273E12B6921F /* Frameworks */,
+				5761FE737CA337E950ECD36A757F7ED8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QNStringCrypto-iOS";
+			productName = "QNStringCrypto-iOS";
+			productReference = BB9EA04A5B3CECB079E7F41FC8C4375F /* QNStringCrypto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F670B83822894F34B4882B30BA859FC /* Pods-QNStringCrypto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AEAA83815513D86D75D41B2CBDA85C /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto_Example" */;
+			buildPhases = (
+				C6BAF35D710E63A39D1AB2B4657C6A81 /* Sources */,
+				228983AB4C540A7A582E536F534C4065 /* Frameworks */,
+				CE7BDB1491896236EA54B7A65E6E1EAE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5FEB9FEF2C0A90AD975D139170FCD1 /* PBXTargetDependency */,
 			);
 			name = "Pods-QNStringCrypto_Example";
 			productName = "Pods-QNStringCrypto_Example";
-			productReference = 6BA2ECEC64CB63633897A0682E04994B /* Pods_QNStringCrypto_Example.framework */;
+			productReference = A5B007A567E380CC409FE9BC763D7C94 /* Pods_QNStringCrypto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9537A9A24CBDF042C0B351D80CB6167E /* Pods-QNStringCrypto-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B620886ED0D4C7C080833C069C78325 /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto-MacTests" */;
+			buildPhases = (
+				3E2E0F84AD9EABBF633EA9C0E2BCA96A /* Sources */,
+				EF44160804DDA903B178C338196F3E1E /* Frameworks */,
+				4E39C9565576DF7709EFE29AE401544A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC8E4AD22A45B846C5490B5C4CE530C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-QNStringCrypto-MacTests";
+			productName = "Pods-QNStringCrypto-MacTests";
+			productReference = 78DF437344D7090E86D769960B04601F /* Pods_QNStringCrypto_MacTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9B564FB8539E7DDD4236004C7771ED96 /* Pods-QNStringCrypto_Tests */ = {
@@ -292,24 +501,24 @@
 			);
 			name = "Pods-QNStringCrypto_Tests";
 			productName = "Pods-QNStringCrypto_Tests";
-			productReference = 1FAFE1CEFCAC93277E6BDFCC68CADF16 /* Pods_QNStringCrypto_Tests.framework */;
+			productReference = 9D69DD68833CFA4F588A20BDF615BF9C /* Pods_QNStringCrypto_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E8D91D7BC51C8BC76A4ED3D4462F931A /* QNStringCrypto */ = {
+		BCF14DA28DD8AC38A84E62666B139824 /* QNStringCrypto-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 046E5F26B6E56FFC77B7676F36066A53 /* Build configuration list for PBXNativeTarget "QNStringCrypto" */;
+			buildConfigurationList = A58BF06047F2BC325934B85F57F62E2A /* Build configuration list for PBXNativeTarget "QNStringCrypto-macOS" */;
 			buildPhases = (
-				37B4EECC56C55BFCFD7D7D4C1171BF92 /* Sources */,
-				B99D6A69587F26C5326017FE743D499D /* Frameworks */,
-				8CCD592583DCFF4380B570BAD4A99C12 /* Headers */,
+				2E48189AB4138AB7C8E6FAC25A59EE5F /* Sources */,
+				8BF335CD4790872F6B649139FEAEF953 /* Frameworks */,
+				781EA008BC8038E13093E5C22FA35A44 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = QNStringCrypto;
-			productName = QNStringCrypto;
-			productReference = E62747DC7878E10F47774E63F0B88B7B /* QNStringCrypto.framework */;
+			name = "QNStringCrypto-macOS";
+			productName = "QNStringCrypto-macOS";
+			productReference = 3A4AC1EF8ADC24CE6366287295884FAB /* QNStringCrypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -320,17 +529,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1000;
-				TargetAttributes = {
-					07C143AD2C6276C4F833F8C7CB2C66B9 = {
-						LastSwiftMigration = 1000;
-					};
-					9B564FB8539E7DDD4236004C7771ED96 = {
-						LastSwiftMigration = 1000;
-					};
-					E8D91D7BC51C8BC76A4ED3D4462F931A = {
-						LastSwiftMigration = 1000;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -340,33 +538,52 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 17508222BB976849D473F14A7BF06610 /* Products */;
+			productRefGroup = E34A6D94449C5AFAB5AC86C256AD7671 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07C143AD2C6276C4F833F8C7CB2C66B9 /* Pods-QNStringCrypto_Example */,
+				0B7A88E8A857237D85871779F58E281F /* Pods-QNStringCrypto-Mac */,
+				9537A9A24CBDF042C0B351D80CB6167E /* Pods-QNStringCrypto-MacTests */,
+				7F670B83822894F34B4882B30BA859FC /* Pods-QNStringCrypto_Example */,
 				9B564FB8539E7DDD4236004C7771ED96 /* Pods-QNStringCrypto_Tests */,
-				E8D91D7BC51C8BC76A4ED3D4462F931A /* QNStringCrypto */,
+				3B4E3F3B5E43AFD1393B7DBEDF7A90BC /* QNStringCrypto-iOS */,
+				BCF14DA28DD8AC38A84E62666B139824 /* QNStringCrypto-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37B4EECC56C55BFCFD7D7D4C1171BF92 /* Sources */ = {
+		2E48189AB4138AB7C8E6FAC25A59EE5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32DF5EE7E63AD384942BB01500969E73 /* QNStringCrypto-dummy.m in Sources */,
-				7994E706215DBE98006571D1 /* String+Crypto.swift in Sources */,
+				D5F3F54ACFC497FE41BA6C0820476642 /* QNStringCrypto-macOS-dummy.m in Sources */,
+				340FA175273B6887F0383B10F60DCA4D /* String+Crypto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C724292702D9A878ACD122FA94D32D0B /* Sources */ = {
+		3E2E0F84AD9EABBF633EA9C0E2BCA96A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D47721B85A5EDA50E8FE46C223BC610B /* Pods-QNStringCrypto_Example-dummy.m in Sources */,
-				7994E704215DBE98006571D1 /* String+Crypto.swift in Sources */,
+				BBA3E8A62686E6A8BA98E116A27938B0 /* Pods-QNStringCrypto-MacTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCAAC52F059003EA8E5714351C7E0605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E406CD43F83C12E2F5E4901E53453DB2 /* QNStringCrypto-iOS-dummy.m in Sources */,
+				56BC6FE2358451D1B7DFF08816F229C6 /* String+Crypto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BAF35D710E63A39D1AB2B4657C6A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2C330EED46FF6F9210AA808AB77000 /* Pods-QNStringCrypto_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +592,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19826155FCA980616FA9B606BC01A3C8 /* Pods-QNStringCrypto_Tests-dummy.m in Sources */,
-				7994E705215DBE98006571D1 /* String+Crypto.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D710D6310208AD2B192B729306B55E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729EE84020D9EFD9D4EFDAF46ED1EE0C /* Pods-QNStringCrypto-Mac-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,196 +609,31 @@
 		1EBFFCD6992DED31E08987B910BE05BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QNStringCrypto_Example";
-			target = 07C143AD2C6276C4F833F8C7CB2C66B9 /* Pods-QNStringCrypto_Example */;
+			target = 7F670B83822894F34B4882B30BA859FC /* Pods-QNStringCrypto_Example */;
 			targetProxy = DEFC78B9E754162839ACEF74BFE50725 /* PBXContainerItemProxy */;
 		};
-		AAFEECC632EDDDCFF437B830FEB4AFA4 /* PBXTargetDependency */ = {
+		6F35EEF1A203C49FB0EDC931F62BEBE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = QNStringCrypto;
-			target = E8D91D7BC51C8BC76A4ED3D4462F931A /* QNStringCrypto */;
-			targetProxy = 83FC370244919C2A19C8DE86AD5D0786 /* PBXContainerItemProxy */;
+			name = "QNStringCrypto-macOS";
+			target = BCF14DA28DD8AC38A84E62666B139824 /* QNStringCrypto-macOS */;
+			targetProxy = 577B3EAF75049AA83A12DC0BC35BB6D4 /* PBXContainerItemProxy */;
+		};
+		7E5FEB9FEF2C0A90AD975D139170FCD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QNStringCrypto-iOS";
+			target = 3B4E3F3B5E43AFD1393B7DBEDF7A90BC /* QNStringCrypto-iOS */;
+			targetProxy = 08B5AACFF2AAF2D1D319B164976813FB /* PBXContainerItemProxy */;
+		};
+		AC8E4AD22A45B846C5490B5C4CE530C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QNStringCrypto-Mac";
+			target = 0B7A88E8A857237D85871779F58E281F /* Pods-QNStringCrypto-Mac */;
+			targetProxy = F6A347530EA07F728295BEDD3C54A878 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00A5C170F98A977C8D76F8DACB3981E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C48A1CF7AFA2CB7B507C3EBAD0CEE0B9 /* QNStringCrypto.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QNStringCrypto/QNStringCrypto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QNStringCrypto/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QNStringCrypto/QNStringCrypto.modulemap";
-				PRODUCT_MODULE_NAME = QNStringCrypto;
-				PRODUCT_NAME = QNStringCrypto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4D7A61C17683571D2DBD6A8663C31EE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13EFFBCBA52F591C59A187C8EB594410 /* Pods-QNStringCrypto_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Pods-QNStringCrypto_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53369500D8449026148F18A4DE1DF544 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9604F8FDDCBF0EA0920C57C39562A6FD /* Pods-QNStringCrypto_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Pods-QNStringCrypto_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		65A6749374EEE2189693001ACCA404A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EF90FB7D2C8EAB6AA099DCE1CCD4339 /* Pods-QNStringCrypto_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto_Tests/Pods-QNStringCrypto_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		710B2B96988EC6912E012CA381F611D1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C48A1CF7AFA2CB7B507C3EBAD0CEE0B9 /* QNStringCrypto.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QNStringCrypto/QNStringCrypto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QNStringCrypto/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QNStringCrypto/QNStringCrypto.modulemap";
-				PRODUCT_MODULE_NAME = QNStringCrypto;
-				PRODUCT_NAME = QNStringCrypto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		02E9E9A900E40CA35B48B4E188A16EBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -628,6 +687,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -637,7 +697,7 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		0823436785719BEED749296886183BE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -688,6 +748,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -696,12 +757,148 @@
 			};
 			name = Release;
 		};
-		FA0BD8F75BF4012D9F7EDF7F506BE647 /* Release */ = {
+		09B3C11BE8D20293F849B754107052F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCF1C53B3A2EB59031CEA742EB3C0C51 /* Pods-QNStringCrypto_Tests.release.xcconfig */;
+			baseConfigurationReference = D04574410496680F1D00EA924BD9382D /* Pods-QNStringCrypto_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Pods-QNStringCrypto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26C93B4E37ED0E1D96772AB3E2EE7F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC646AE4E5C9122A2F1B449FCA24BB9 /* QNStringCrypto-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QNStringCrypto-iOS/QNStringCrypto-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QNStringCrypto-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QNStringCrypto-iOS/QNStringCrypto-iOS.modulemap";
+				PRODUCT_MODULE_NAME = QNStringCrypto;
+				PRODUCT_NAME = QNStringCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B71980EC783DCB4D9CE17A158AA1EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E063526314A7607E03913B82046EA1FC /* QNStringCrypto-macOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/QNStringCrypto-macOS/QNStringCrypto-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QNStringCrypto-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/QNStringCrypto-macOS/QNStringCrypto-macOS.modulemap";
+				PRODUCT_MODULE_NAME = QNStringCrypto;
+				PRODUCT_NAME = QNStringCrypto;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FE20E453DA67675AFD6F72A0D7DC0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27864710FED70641E5C7B9AB69BB3BBC /* Pods-QNStringCrypto-MacTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto-MacTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto-MacTests/Pods-QNStringCrypto-MacTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65A6749374EEE2189693001ACCA404A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2119203002FF1A3E0978941ADCFD8323 /* Pods-QNStringCrypto_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -724,7 +921,248 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		784E7AA183824FDA259ACB2BC08B4D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0742C44A33F366EF25BAAA54ACC5FF /* Pods-QNStringCrypto_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto_Example/Pods-QNStringCrypto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C8B6B2F93A961BEC083243A73FE1050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C864907E77B416EDB6F4EDC6830DE61 /* Pods-QNStringCrypto-Mac.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto-Mac/Pods-QNStringCrypto-Mac.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96ACA105E8A1BD43FF671D30F2F68A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC646AE4E5C9122A2F1B449FCA24BB9 /* QNStringCrypto-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QNStringCrypto-iOS/QNStringCrypto-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QNStringCrypto-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QNStringCrypto-iOS/QNStringCrypto-iOS.modulemap";
+				PRODUCT_MODULE_NAME = QNStringCrypto;
+				PRODUCT_NAME = QNStringCrypto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E77AD7504448E9F65DB378379153080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796D298C44FC01A56104E915E29A3998 /* Pods-QNStringCrypto-MacTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto-MacTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto-MacTests/Pods-QNStringCrypto-MacTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE54A7ED9CD4FCB527F6689C9E855A1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E063526314A7607E03913B82046EA1FC /* QNStringCrypto-macOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/QNStringCrypto-macOS/QNStringCrypto-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QNStringCrypto-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MODULEMAP_FILE = "Target Support Files/QNStringCrypto-macOS/QNStringCrypto-macOS.modulemap";
+				PRODUCT_MODULE_NAME = QNStringCrypto;
+				PRODUCT_NAME = QNStringCrypto;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2761ADC6A5AEE641706427CFEE55E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7FE6DCB690C031C8C225CDEA1D6F63 /* Pods-QNStringCrypto-Mac.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto-Mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto-Mac/Pods-QNStringCrypto-Mac.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA0BD8F75BF4012D9F7EDF7F506BE647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB11CBEECFBA291D816F8C6EE2DA0404 /* Pods-QNStringCrypto_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QNStringCrypto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QNStringCrypto_Tests/Pods-QNStringCrypto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -735,15 +1173,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		046E5F26B6E56FFC77B7676F36066A53 /* Build configuration list for PBXNativeTarget "QNStringCrypto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				710B2B96988EC6912E012CA381F611D1 /* Debug */,
-				00A5C170F98A977C8D76F8DACB3981E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		204D70E45B9484BDF59B46625E07D8A8 /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -756,17 +1185,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				02E9E9A900E40CA35B48B4E188A16EBE /* Debug */,
+				0823436785719BEED749296886183BE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		671691F92B146EA6AE57D5BCF38B355E /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto_Example" */ = {
+		31DCB87EA5E5E0F0BA8BE4578B78B534 /* Build configuration list for PBXNativeTarget "QNStringCrypto-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53369500D8449026148F18A4DE1DF544 /* Debug */,
-				4D7A61C17683571D2DBD6A8663C31EE2 /* Release */,
+				96ACA105E8A1BD43FF671D30F2F68A08 /* Debug */,
+				26C93B4E37ED0E1D96772AB3E2EE7F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9783BF077FFCD14D3CEF8662BA490E /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2761ADC6A5AEE641706427CFEE55E14 /* Debug */,
+				8C8B6B2F93A961BEC083243A73FE1050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B620886ED0D4C7C080833C069C78325 /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E77AD7504448E9F65DB378379153080 /* Debug */,
+				5FE20E453DA67675AFD6F72A0D7DC0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58BF06047F2BC325934B85F57F62E2A /* Build configuration list for PBXNativeTarget "QNStringCrypto-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE54A7ED9CD4FCB527F6689C9E855A1B /* Debug */,
+				5B71980EC783DCB4D9CE17A158AA1EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AEAA83815513D86D75D41B2CBDA85C /* Build configuration list for PBXNativeTarget "Pods-QNStringCrypto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784E7AA183824FDA259ACB2BC08B4D0F /* Debug */,
+				09B3C11BE8D20293F849B754107052F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
