@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QNStringCrypto
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

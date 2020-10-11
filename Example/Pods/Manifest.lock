@@ -1,5 +1,5 @@
 PODS:
-  - QNStringCrypto (0.2.0)
+  - QNStringCrypto (1.0.0)
 
 DEPENDENCIES:
   - QNStringCrypto (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QNStringCrypto: a297e0d60cf791ac3bd9fceb00e1ce83030bb6ce
+  QNStringCrypto: ec845a19ed4106039a149b3781aab85e735ba79a
 
 PODFILE CHECKSUM: 901bec329564c509120dc5d6002f724ec43f3e51
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.9.3
