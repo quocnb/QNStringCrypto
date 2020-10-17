@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QNStringCrypto'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'Simple quick crypto support for string'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/quocnb/QNStringCrypto.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '10.15'
   s.swift_version = '5'
 
